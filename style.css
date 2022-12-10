@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    background: rgb(36,41,46);
+    background: radial-gradient(circle, rgba(36,41,46,1) 0%, rgba(79,139,199,1) 0%, rgba(36,41,46,1) 100%);
+    font-family: 'Fredoka One', cursive;
+}
+
+.header-container {
+    width: 1150px;
+    margin-inline: auto;
+    text-align: center;
+    color: rgb(249, 249, 249);
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0px 3px 10px #00f;
+    letter-spacing: 2px;
+}   
+
+.container {
+    margin: 0;
+    width: 1150px;
+    height: 550px; /* 55 vertical pixels */
+    margin-inline: auto;
+    border: 5px double rgb(249, 249, 249);
+    box-shadow: 0px 0px 10px #00f;
+}
+
+.buttons-container {
+    display: flex;
+    width: 1150px;
+    margin-inline: auto;
+    margin-top: 20px;
+}
+
+input[type="color"] {
+	opacity: 0%;
+    width: 32px;
+    height: 32px;
+}
+
+button {
+    height: 35px;
+    margin-top: 2px;
+    margin-left: 6px;
+    border-radius: 15px;
+    border: solid 2px rgb(249, 249, 249);
+    background-color: rgb(243, 243, 243);
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 1px;
+}
+
+.line {
+    display: inline-block;
+    width: 0;
+    height: 35px;
+    border-left: solid 2px rgb(249, 249, 249);
+    margin-top: 2px;
+    margin-left: 6px;
+}
+
+#color-picker-container {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border: solid 2px rgb(249, 249, 249);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pixels {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(243, 243, 243);
+    float: left;
+    cursor: pointer;
+}
+
+#pixel-6103,#pixel-6104,#pixel-6105,#pixel-6109,#pixel-6110,#pixel-6111,#pixel-5991,#pixel-5993,#pixel-5876,#pixel-5878,#pixel-5761,#pixel-5646,#pixel-5647,#pixel-5648,#pixel-5649,#pixel-5763,#pixel-5987,#pixel-5872,#pixel-5757,#pixel-5642,#pixel-5641,#pixel-5640,#pixel-5524,#pixel-5409,#pixel-5294,#pixel-5179,#pixel-5064,#pixel-5527,#pixel-5412,#pixel-5297,#pixel-5182,#pixel-5067,#pixel-4952,#pixel-4837,#pixel-4722,#pixel-4956,#pixel-4957,#pixel-4958,#pixel-4959,#pixel-4960,#pixel-4961,#pixel-5997,#pixel-5882,#pixel-5767,#pixel-5652,#pixel-5537,#pixel-5422,#pixel-5307,#pixel-5192,#pixel-5077,#pixel-4962,#pixel-4848,#pixel-4733,#pixel-4618,#pixel-4503,#pixel-4840,#pixel-4725,#pixel-4610,#pixel-4495,#pixel-4381,#pixel-4382,#pixel-4383,#pixel-4384,#pixel-4385,#pixel-4386,#pixel-4387,#pixel-4272,#pixel-4156,#pixel-4040,#pixel-4039,#pixel-4038,#pixel-4037,#pixel-4036,#pixel-4035,#pixel-4034,#pixel-4148,#pixel-4262,#pixel-4377,#pixel-4492,#pixel-4607,#pixel-4606,#pixel-4605,#pixel-4719,#pixel-4834,#pixel-4949 {
+    background-color: black;
+}
+
+#pixel-4835,#pixel-4950,#pixel-4951,#pixel-5065,#pixel-5066,#pixel-5180,#pixel-5181,#pixel-5295,#pixel-5296,#pixel-5410,#pixel-5411,#pixel-5526,#pixel-5525,#pixel-5528,#pixel-5529,#pixel-5530,#pixel-5531,#pixel-5532,#pixel-5533,#pixel-5534,#pixel-5535,#pixel-5536,#pixel-5650,#pixel-5651,#pixel-5764,#pixel-5765,#pixel-5766,#pixel-5881,#pixel-5880,#pixel-5995,#pixel-5879,#pixel-5994,#pixel-5996,#pixel-5643,#pixel-5645,#pixel-5644,#pixel-5758,#pixel-5759,#pixel-5760,#pixel-5873,#pixel-5874,#pixel-5875,#pixel-5990,#pixel-5989,#pixel-5988,#pixel-5421,#pixel-5415,#pixel-5299,#pixel-5184,#pixel-5068,#pixel-4953,#pixel-4838,#pixel-4378,#pixel-4493,#pixel-4608,#pixel-4723,#pixel-5183,#pixel-5413,#pixel-5298,#pixel-5414 {
+    background-color: rgb(110 21 18);
+}
+
+#pixel-4720,#pixel-4721,#pixel-4836,#pixel-4263,#pixel-4264,#pixel-4149,#pixel-4150,#pixel-4265,#pixel-4379,#pixel-4380,#pixel-4494,#pixel-4609,#pixel-4724,#pixel-4839,#pixel-4954,#pixel-4955,#pixel-5069,#pixel-5070,#pixel-5185,#pixel-5300,#pixel-5416,#pixel-5301,#pixel-5186,#pixel-5071,#pixel-5072,#pixel-5073,#pixel-5187,#pixel-5188,#pixel-5303,#pixel-5302,#pixel-5417,#pixel-5418,#pixel-5419,#pixel-5420,#pixel-5304,#pixel-5074,#pixel-5075,#pixel-5076,#pixel-5191,#pixel-5190,#pixel-5189,#pixel-5305,#pixel-5306,#pixel-4151,#pixel-4266,#pixel-4267,#pixel-4152,#pixel-4153,#pixel-4154,#pixel-4155,#pixel-4268,#pixel-4269,#pixel-4270,#pixel-4271 {
+    background-color: rgb(126 25 22);
+}
+
+#pixel-4496,#pixel-4611,#pixel-4726,#pixel-4841,#pixel-4842,#pixel-4843,#pixel-4844,#pixel-4845,#pixel-4846,#pixel-4847 {
+    background-color: rgb(29 96 155);
+}
+
+#pixel-4497,#pixel-4498,#pixel-4612,#pixel-4613,#pixel-4614,#pixel-4727,#pixel-4728,#pixel-4729,#pixel-4730,#pixel-4731,#pixel-4732,#pixel-4617,#pixel-4502 {
+    background-color: rgb(54 139 168);
+
+}
+
+#pixel-4499,#pixel-4500,#pixel-4501,#pixel-4615,#pixel-4616 {
+    background-color: rgb(195 196 200);
+}

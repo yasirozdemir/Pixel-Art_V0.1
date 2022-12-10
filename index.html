@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Art Studio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/ce5bb3fc01.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header-container">
+        <h1>PIXEL ART STUDIO</h1>
+    </div>
+    <div class="container">
+        <!-- 
+        <div class="pixels"></div>
+        <div class="pixels"></div>
+        <div class="pixels"></div>
+        .
+        .
+        .
+        -->
+    </div>
+    <div class="buttons-container">
+        <div id="color-picker-container">
+            <input type="color" id="color-input">
+        </div>
+        <button><i class="fa-solid fa-paintbrush"></i> Select Color</button>
+
+        <div class="line"></div>
+
+        <button onclick="eraser()"><i class="fa-solid fa-eraser"></i> Eraser</button>
+        <button onclick="clearAll()"><i class="fa-regular fa-circle-xmark"></i> Clear All</button>
+
+        <div class="line"></div>
+
+        <button onclick="paintOnMouseOver()">Paint On Mouseover</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
