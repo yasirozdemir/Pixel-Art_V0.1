@@ -13,13 +13,23 @@ body {
 }
 
 h1 {
-    margin: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
     font-size: 48px;
     font-weight: 700;
     color: #fff;
     text-shadow: 0px 3px 10px #00f;
     letter-spacing: 2px;
 }   
+
+p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+    text-shadow: 0px 3px 10px #00f;
+    letter-spacing: 1px;
+}
 
 .container {
     margin: 0;
@@ -79,6 +89,8 @@ button {
     float: left;
     cursor: pointer;
 }
+
+/* AMONG US WELCOMING EASTER EGG */
 
 #pixel-6103,#pixel-6104,#pixel-6105,#pixel-6109,#pixel-6110,#pixel-6111,#pixel-5991,#pixel-5993,#pixel-5876,#pixel-5878,#pixel-5761,#pixel-5646,#pixel-5647,#pixel-5648,#pixel-5649,#pixel-5763,#pixel-5987,#pixel-5872,#pixel-5757,#pixel-5642,#pixel-5641,#pixel-5640,#pixel-5524,#pixel-5409,#pixel-5294,#pixel-5179,#pixel-5064,#pixel-5527,#pixel-5412,#pixel-5297,#pixel-5182,#pixel-5067,#pixel-4952,#pixel-4837,#pixel-4722,#pixel-4956,#pixel-4957,#pixel-4958,#pixel-4959,#pixel-4960,#pixel-4961,#pixel-5997,#pixel-5882,#pixel-5767,#pixel-5652,#pixel-5537,#pixel-5422,#pixel-5307,#pixel-5192,#pixel-5077,#pixel-4962,#pixel-4848,#pixel-4733,#pixel-4618,#pixel-4503,#pixel-4840,#pixel-4725,#pixel-4610,#pixel-4495,#pixel-4381,#pixel-4382,#pixel-4383,#pixel-4384,#pixel-4385,#pixel-4386,#pixel-4387,#pixel-4272,#pixel-4156,#pixel-4040,#pixel-4039,#pixel-4038,#pixel-4037,#pixel-4036,#pixel-4035,#pixel-4034,#pixel-4148,#pixel-4262,#pixel-4377,#pixel-4492,#pixel-4607,#pixel-4606,#pixel-4605,#pixel-4719,#pixel-4834,#pixel-4949 {
     background-color: black;
